@@ -1,0 +1,16 @@
+# Dependency directories
+node_modules/
+ai-study-buddy/node_modules/
+backend/node_modules/
+
+# Environment configurations
+.env
+backend/.env
+
+# Production build outputs
+ai-study-buddy/dist/
+
+# System and logs
+*.log
+.DS_Store
+Thumbs.db

@@ -2,7 +2,7 @@ import axios from "axios";
 
 const api = axios.create({
   // 🔥 Direct backend URL — no proxy confusion
-  baseURL: import.meta.env.VITE_API_URL || "https://ai-study-buddy-backend-a8ri.onrender.com",
+  baseURL: import.meta.env.VITE_API_URL || "https://ai-study-buddy-backend-a8ri.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
